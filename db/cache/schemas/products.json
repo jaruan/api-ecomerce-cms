@@ -1,0 +1,103 @@
+{
+  "settings": {
+    "index.mapping.coerce": false
+  },
+  "mappings": {
+    "dynamic": "strict",
+    "properties": {
+      "brand": {
+        "type": "keyword"
+      },
+      "categoryIds": {
+        "type": "keyword"
+      },
+      "description": {
+        "type": "text"
+      },
+      "isEnabled": {
+        "type": "boolean"
+      },
+      "isReturnable": {
+        "type": "keyword"
+      },
+      "createdAt": {
+        "type": "text"
+      },
+      "sku": {
+        "type": "keyword"
+      },
+      "updatedAt": {
+        "type": "text"
+      },
+      "primaryCategory": {
+        "type": "keyword"
+      },
+      "secondaryCategory": {
+        "type": "keyword"
+      },
+      "tertiaryCategory": {
+        "type": "keyword"
+      },
+      "name": {
+        "type": "text"
+      },
+      "variants": {
+        "type": "nested",
+        "properties": {
+          "color": {
+            "type": "keyword"
+          },
+          "colorFamily": {
+            "type": "keyword"
+          },
+          "customAttributes": {
+            "type": "object",
+            "dynamic": true
+          },
+          "image": {
+            "type": "keyword"
+          },
+          "isEnabled": {
+            "type": "boolean"
+          },
+          "lastUpdated": {
+            "type": "text"
+          },
+          "createdAt": {
+            "type": "text"
+          },
+          "id": {
+            "type": "keyword"
+          },
+          "updatedAt": {
+            "type": "text"
+          },
+          "mediaGallery": {
+            "type": "keyword"
+          },
+          "name": {
+            "type": "text"
+          },
+          "sku": {
+            "type": "keyword"
+          },
+          "smallImageLabel": {
+            "type": "keyword"
+          },
+          "smallImageUrl": {
+            "type": "keyword"
+          },
+          "upc": {
+            "type": "keyword"
+          },
+          "version": {
+            "type": "keyword"
+          }
+        }
+      },
+      "version": {
+        "type": "keyword"
+      }
+    }
+  }
+}

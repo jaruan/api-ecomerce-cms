@@ -1,0 +1,31 @@
+{
+  "name": "api-ecomerce-cms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaruan/api-ecomerce-cms.git"
+  },
+  "author": "Jadon Ruan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaruan/api-ecomerce-cms/issues"
+  },
+  "homepage": "https://github.com/jaruan/api-ecomerce-cms#readme",
+  "dependencies": {
+    "@elastic/elasticsearch": "7.x.x",
+    "@hapi/glue": "^8.0.0",
+    "apollo-datasource": "^3.3.1",
+    "apollo-server": "^3.6.7",
+    "apollo-server-hapi": "^3.6.7",
+    "dataloader": "^2.1.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.13.0"
+  }
+}

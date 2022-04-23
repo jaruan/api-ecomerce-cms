@@ -1,0 +1,16 @@
+[{
+  "brand": "dyson",
+  "categoryIds": ["1", "2", "100"],
+  "description": "description",
+  "isEnabled": true,
+  "isReturnable": "true",
+  "createdAt": "2022-04-18T00:28:46+08:00",
+  "updatedAt": "2022-04-18T00:28:46+08:00",
+  "sku": "888888",
+  "primaryCategory": "Appliances",
+  "secondaryCategory": "",
+  "tertiaryCategory": "",
+  "name": "vacuum cleaner",
+  "variants": [],
+  "version": "1"
+}]
